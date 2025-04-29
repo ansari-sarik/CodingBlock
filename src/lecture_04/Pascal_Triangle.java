@@ -16,7 +16,7 @@ public class Pascal_Triangle {
 			int i = 0;
 			int ncr = 1;
 			while (i < star) {
-				System.out.print(ncr + "  ");
+				System.out.print(ncr + "   ");
 				ncr = (ncr * (row - i)) / (i + 1);
 				i++;
 			}

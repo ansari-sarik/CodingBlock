@@ -1,4 +1,4 @@
-package Lec_05;
+package lecture_05;
 
 public class TypeCasting_03 {
 	public static void main(String[] args) {
