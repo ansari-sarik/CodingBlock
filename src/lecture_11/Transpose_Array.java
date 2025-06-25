@@ -17,7 +17,7 @@ public class Transpose_Array {
 			for (int col = row + 1; col < arr.length; col++) {
 				int temp = arr[row][col];
 				arr[row][col] = arr[col][row];
-				arr[col][row] = arr[row][col];
+				arr[col][row] = temp;
 			}
 		}
 	}
